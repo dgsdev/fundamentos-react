@@ -10,9 +10,14 @@ import Card from './components/layout/Card'
 import Repeticao from './components/basicos/Repeticao'
 import Condicional from './components/basicos/Condicional'
 import CondicionalComIf from './components/basicos/CondicionalComIf'
+import Pai from './components/comunicacao/direta/Pai'
 
 export default props => (
 <div className="App">
+<Card titulo="#08 - Comunicação" color="green">
+    <Pai sobrenome="Ramos"></Pai>
+    
+</Card>
 <Card titulo="#07 - Condicional v2" color="#FA6900">
     <CondicionalComIf numero={100}></CondicionalComIf>
 </Card>
@@ -23,7 +28,8 @@ export default props => (
     <Repeticao></Repeticao>
 </Card>
 <Card titulo="#04 - Exercício X" color="#D96459">
-    Contéudo
+    Douglas <br />
+    Pinheiro
 </Card>
 <Card titulo="#03 - Componentes com Filhos" color="#FF85CB">
 <ComFilhos>
